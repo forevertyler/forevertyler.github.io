@@ -60,10 +60,10 @@
 .infinite{
 	animation-iteration-count: infinite;
 }
-.musicRotate{animation-name: MUSIC;
+.musicRotate{animation-name: MUSIC;-webkit-animation-name:MUSIC;
 }
 .rotate{
-	animation-name: MUSIC;
+	animation-name: MUSIC;-webkit-animation-name:MUSIC;
 }
 
 
