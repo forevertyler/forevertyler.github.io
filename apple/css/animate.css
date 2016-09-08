@@ -1,0 +1,99 @@
+@-webkit-keyframes MUSIC {
+	from {-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);  }
+	to { -webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg); }
+}
+@-o-keyframes MUSIC {
+	from {-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);  }
+	to { -webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg); }
+}
+@-moz-keyframes MUSIC {
+	from {-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);  }
+	to { -webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg); }
+}
+@keyframes MUSIC {
+	from {-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);  }
+	to { -webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg); }
+}
+.time{
+	animation-duration: 3s;
+}
+.time1{
+	animation-duration: 1.2s;
+}
+
+.time2{
+	animation-duration: 2s;
+}
+.time3{
+	animation-duration: 20s;
+}
+
+.linear{
+	-webkit-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+.infinite{
+	animation-iteration-count: infinite;
+}
+.musicRotate{animation-name: MUSIC;
+}
+.rotate{
+	animation-name: MUSIC;
+}
+
+
+ @keyframes arrow2{
+        0%{opacity:0;transform:translateY(0);}
+
+        50%{opacity:1;transform:translateY(-20px);}
+
+        100%{opacity:0;transform:translateY(-40px);}
+    }
+
+ @-webkit-keyframes arrow2{
+    0%{opacity:0;-webkit-transform:translateY(0);}
+
+    50%{opacity:1;-webkit-transform:translateY(-20px);}
+
+    100%{opacity:0;-webkit-transform:translateY(-40px);}
+ }
+ @-webkit-keyframes pulse1{
+		0%{-webkit-transform:scale(1);transform:scale(1)}
+		50%{-webkit-transform:scale(1.1);transform:scale(1.1)}
+		100%{-webkit-transform:scale(1);transform:scale(1)}}
+@keyframes pulse1{
+	0%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+	50%{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+	100%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+}
+.pulse1{-webkit-animation-name:pulse1;animation-name:pulse1}
+
+.arrow-animate{animation-name:arrow2;-webkit-animation-name:arrow2;}
+.delay{animation-delay: 2s;}
+.delay1{animation-delay: 1.5s;}
+.delay2{animation-delay: 1.7s;}
