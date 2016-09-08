@@ -39,26 +39,22 @@
 	transform: rotate(360deg); }
 }
 .time{
-	animation-duration: 3s;
+	animation-duration: 3s;-webkit-animation-duration: 3s;
 }
 .time1{
-	animation-duration: 1.2s;
+	animation-duration: 1.2s;-webkit-animation-duration: 1.2s;
 }
 
 .time2{
-	animation-duration: 2s;
+	animation-duration: 2s;-webkit-animation-duration: 2s;
 }
-.time3{
-	animation-duration: 20s;
-}
-
 .linear{
 	-webkit-animation-timing-function: linear;
 	-o-animation-timing-function: linear;
 	animation-timing-function: linear;
 }
 .infinite{
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;
 }
 .musicRotate{animation-name: MUSIC;-webkit-animation-name:MUSIC;
 }
@@ -94,6 +90,6 @@
 .pulse1{-webkit-animation-name:pulse1;animation-name:pulse1}
 
 .arrow-animate{animation-name:arrow2;-webkit-animation-name:arrow2;}
-.delay{animation-delay: 2s;}
-.delay1{animation-delay: 1.5s;}
-.delay2{animation-delay: 1.7s;}
+.delay{animation-delay: 2s;-webkit-animation-delay: 2s;}
+.delay1{animation-delay: 1.5s;-webkit-animation-delay: 1.5s;}
+.delay2{animation-delay: 1.7s;-webkit-animation-delay: 1.7s;}
