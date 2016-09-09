@@ -485,10 +485,3 @@ html,body{
     background-size: 100%;
     width: 2rem;
 }
-.qrcode{
-
-padding:200px 0 0 200px !important;
-margin:-200px 0 0 -200px !important;
-position: relative;z-index: 100;
--webkit-user-select: none;
-}
