@@ -470,18 +470,23 @@ html,body{
     left: 14%;
     top: 2.6rem;
     height: 2rem;
-    background: url(../images/my.png) no-repeat;
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    /*background: url(../images/my.png) no-repeat;*/
+    /*-webkit-background-size: 100%;
+    background-size: 100%;*/
     width: 2rem;
+    -webkit-touch-callout:default;
 }
 .page7 .sisE{
 	position: absolute;
     left: 50%;
     top: 2.6rem;
     height: 2rem;
-    background: url(../images/sister.png) no-repeat;
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    /*background: url(../images/sister.png) no-repeat;*/
+    /*-webkit-background-size: 100%;
+    background-size: 100%;*/
     width: 2rem;
+}
+.page7 img{
+	height: 2rem;
+	width: 2rem;
 }
